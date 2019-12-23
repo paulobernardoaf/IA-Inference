@@ -1,0 +1,12 @@
+Rules:
+a AND !b ENTAO c
+c ENTAO d
+d ENTAO !e
+!e ENTAO z
+END
+Base:
+a, !b
+END
+Target:
+z
+END

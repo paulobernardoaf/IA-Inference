@@ -1,0 +1,10 @@
+if a(x) and b(x) then c(x)
+if c(x) then d(x)
+if d(x) then e(x)
+if d(x) and e(x) then z(x)
+
+a(k)
+b(k)
+
+z(k)
+
